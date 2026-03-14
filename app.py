@@ -5,7 +5,7 @@ import cv2
 from PIL import Image
 
 # Load model
-model = tf.keras.models.load_model("pneumonia_model.keras")
+model = tf.keras.models.load_model("pneumonia_model.h5")
 
 st.title("🫁 Pneumonia Detection from Chest X-ray")
 
